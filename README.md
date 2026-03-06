@@ -79,6 +79,8 @@ The pipeline combines three main components:
 3. **Multimodal Fusion Layer**
    - Integrates graph embeddings and text embeddings
    - Enables joint graph–text reasoning
+  
+
 Graph Structure ───► Graph Encoder ──┐
 │
 Node Text ───────► Text Encoder ─────┼──► Multimodal Fusion ─► GraphLLM
